@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Apps\\com.bookatime.mobileapp.apk",
+      "PackagePath": "staticwebassets\\Apps\\com.bookatime.mobileapp.apk"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\agent11_demo.jpg",
+      "PackagePath": "staticwebassets\\Images\\agent11_demo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\agent12-demo.jpg",
+      "PackagePath": "staticwebassets\\Images\\agent12-demo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\agent3_demo.jpg",
+      "PackagePath": "staticwebassets\\Images\\agent3_demo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\agent4_demo.jpg",
+      "PackagePath": "staticwebassets\\Images\\agent4_demo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\agent5_demo.jpg",
+      "PackagePath": "staticwebassets\\Images\\agent5_demo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\fin1_demo_img.jpg",
+      "PackagePath": "staticwebassets\\Images\\fin1_demo_img.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\fin1_demo_logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\fin1_demo_logo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\hb1_demo_img.jpg",
+      "PackagePath": "staticwebassets\\Images\\hb1_demo_img.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\hb1_demo_logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\hb1_demo_logo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\hb2_demo_img.jpg",
+      "PackagePath": "staticwebassets\\Images\\hb2_demo_img.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\hb2_demo_logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\hb2_demo_logo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\hb3_demo_img.jpg",
+      "PackagePath": "staticwebassets\\Images\\hb3_demo_img.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\hb3_demo_logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\hb3_demo_logo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\hb4_demo_img.jpg",
+      "PackagePath": "staticwebassets\\Images\\hb4_demo_img.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\hb5_demo_img(2).jpg",
+      "PackagePath": "staticwebassets\\Images\\hb5_demo_img(2).jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\leg1_demo_img.jpg",
+      "PackagePath": "staticwebassets\\Images\\leg1_demo_img.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\leg1_demo_logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\leg1_demo_logo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\Images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\Images\\noimage.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\com.bookatime.mobileapp.apk",
+      "PackagePath": "staticwebassets\\com.bookatime.mobileapp.apk"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\financial_logo.jpg",
+      "PackagePath": "staticwebassets\\financial_logo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\health_logo.jpg",
+      "PackagePath": "staticwebassets\\health_logo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\legal_logo.jpg",
+      "PackagePath": "staticwebassets\\legal_logo.jpg"
+    },
+    {
+      "Id": "D:\\CANADA\\Training\\Mobile\\BookATime\\WebApi\\WebApi\\wwwroot\\logo1.png",
+      "PackagePath": "staticwebassets\\logo1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebApi.props",
+      "PackagePath": "build\\WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebApi.props",
+      "PackagePath": "buildTransitive\\WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
