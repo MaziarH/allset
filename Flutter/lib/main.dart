@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'signin.dart';
-import 'signup.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:my_flutter_app/onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,44 +8,35 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Allset App',
+      title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const SignIn(),
-      routes: {
-        '/signin': (context) => const SignIn(),
-        '/signup': (context) => const SignUp(),
-        '/main': (context) => const MainScreen(),
-      },
+      debugShowCheckedModeBanner: false,
+      home: OnboardingScreen(),
     );
   }
 }
 
-// add here for home screen content
-class MainScreen extends StatefulWidget {
-  const MainScreen({super.key});
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+
+  final String title;
 
   @override
-  State<MainScreen> createState() => _MainScreenState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MainScreenState extends State<MainScreen> {
-  String _fullName = '';
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
 
-  @override
-  void initState() {
-    super.initState();
-    _loadUser();
-  }
-
-  Future<void> _loadUser() async {
-    final prefs = await SharedPreferences.getInstance();
+  void _incrementCounter() {
     setState(() {
-      _fullName = prefs.getString('fullName') ?? 'User';
+      _counter++;
     });
   }
 
@@ -55,20 +44,26 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Welcome, $_fullName!'),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () {
-            Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(builder: (_) => const SignIn()),
-            );
-          },
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Text('You have pushed the button this many times:'),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
+          ],
         ),
       ),
-      body: const Center(
-        child: Text('Main Screen Content Here'),
-      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

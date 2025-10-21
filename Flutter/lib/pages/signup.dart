@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'signin.dart';
-import 'main.dart';
+import 'home.dart';
 import 'config.dart'; // <-- same as before (AppConfig)
 
 class SignUp extends StatefulWidget {
@@ -129,7 +129,7 @@ class _SignUpState extends State<SignUp> {
         } else {
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (_) => const MainScreen()),
+            MaterialPageRoute(builder: (_) => const HomeScreen()),
           );
         }
       } else {
